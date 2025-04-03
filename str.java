@@ -1,7 +1,7 @@
 class str{
     public static void printletter(String str){
         for (int i=0;i<str.length();i++){
-            System.out.println(str.charAI(i)+" ");
+            System.out.println(str.charAt(i)+" ");
         }
         System.out.println();
     }
@@ -10,6 +10,7 @@ class str{
         String secondname="chaudhary";
         String fullName=firstname+"  "+secondname;
 
-        printletter(str);
+        
+        printletter(fullName);
     }
 }
