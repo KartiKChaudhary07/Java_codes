@@ -13,6 +13,11 @@ class Sorter{
         }
 
     }
+
+    public int bubbleSort(int[] array) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'bubbleSort'");
+    }
 }
 class Main{
     public static void main(String[] args) {
