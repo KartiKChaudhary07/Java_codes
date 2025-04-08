@@ -6,7 +6,7 @@ class reverse{
         }
         
         printDec(n-1);
-        System.out.print();
+        
     }
     public static void main(String[] args){
         int n=10;
