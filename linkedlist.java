@@ -1,4 +1,4 @@
-public class linkedList {
+public class linkedlist { // Changed class name to be more standard
     public static class Node {
         int data;
         Node next;
@@ -39,14 +39,14 @@ public class linkedList {
         }
         Node temp = head;
         while (temp != null) {
-            System.out.print(temp.data + "->"); // Changed println to print and added "->"
+            System.out.print(temp.data + "->");
             temp = temp.next;
         }
-        System.out.println("null"); // Indicate the end of the list
+        System.out.println("null");
     }
 
     public static void main(String[] args) {
-        linkedList l1 = new linkedList();
+        linkedlist l1 = new linkedlist(); // Changed to the standard class name
         l1.addFirst(4);
         l1.addFirst(2);
         l1.addFirst(3);
