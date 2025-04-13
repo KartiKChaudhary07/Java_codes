@@ -27,5 +27,5 @@ public class Inheritance{
         System.out.println(b.getY());
         
     }
- }
+}
 
